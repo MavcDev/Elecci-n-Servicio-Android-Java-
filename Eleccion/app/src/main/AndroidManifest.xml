@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.eleccion" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".VistaLogin"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".views.ViewMenuEleccion"
+            android:label="@string/title_activity_view_menu_eleccion" >
+        </activity>
+        <activity
+            android:name=".views.Usuario.ViewInsertUsuario"
+            android:label="@string/title_activity_view_insert_usuario" >
+        </activity>
+        <activity
+            android:name=".views.Usuario.ViewUpdateUsuario"
+            android:label="@string/title_activity_view_update_usuario" >
+        </activity>
+        <activity
+            android:name=".views.Tipo.ViewInsertTipo"
+            android:label="@string/title_activity_view_insert_tipo" >
+        </activity>
+        <activity
+            android:name=".views.Tipo.ViewUpdateTipo"
+            android:label="@string/title_activity_view_update_tipo" >
+        </activity>
+        <activity
+            android:name=".views.Punto.ViewInsertPunto"
+            android:label="@string/title_activity_view_insert_punto" >
+        </activity>
+        <activity
+            android:name=".views.Punto.ViewUpdatePunto"
+            android:label="@string/title_activity_view_update_punto" >
+        </activity>
+        <activity
+            android:name=".views.Partido.ViewInsertPartido"
+            android:label="@string/title_activity_view_insert_partido" >
+        </activity>
+        <activity
+            android:name=".views.Partido.ViewUpdatePartido"
+            android:label="@string/title_activity_view_update_partido" >
+        </activity>
+        <activity
+            android:name=".views.Politico.ViewInsertPolitico"
+            android:label="@string/title_activity_view_insert_politico" >
+        </activity>
+        <activity
+            android:name=".views.Politico.ViewUpdataPolitico"
+            android:label="@string/title_activity_view_updata_politico" >
+        </activity>
+        <activity
+            android:name=".views.Mesa.ViewInsertMesa"
+            android:label="@string/title_activity_view_insert_mesa" >
+        </activity>
+        <activity
+            android:name=".views.Mesa.ViewUpdateMesa"
+            android:label="@string/title_activity_view_update_mesa" >
+        </activity>
+        <activity
+            android:name=".views.MesaPolitico.ViewInsertMesaPolitico"
+            android:label="@string/title_activity_view_insert_mesa_politico" >
+        </activity>
+        <activity
+            android:name=".views.Tipo.ViewListTipo"
+            android:label="@string/title_activity_view_list_tipo" >
+        </activity>
+        <activity
+            android:name=".views.Punto.ViewListPunto"
+            android:label="@string/title_activity_view_list_punto" >
+        </activity>
+        <activity
+            android:name=".views.Partido.ViewListPartido"
+            android:label="@string/title_activity_view_list_partido" >
+        </activity>
+        <activity
+            android:name=".views.Politico.ViewListPolitico"
+            android:label="@string/title_activity_view_list_politico" >
+        </activity>
+        <activity
+            android:name=".views.Mesa.ViewListMesa"
+            android:label="@string/title_activity_view_list_mesa" >
+        </activity>
+        <activity
+            android:name=".views.MesaPolitico.ViewUpdateMesaPolitico"
+            android:label="@string/title_activity_view_update_mesa_politico" >
+        </activity>
+        <activity
+            android:name=".views.MesaPolitico.ViewListMesaPlitico"
+            android:label="@string/title_activity_view_list_mesa_plitico" >
+        </activity>
+        <activity
+            android:name=".views.ViewMenuUsuario"
+            android:label="@string/title_activity_view_menu_usuario" >
+        </activity>
+        <activity
+            android:name=".views.Usuario.ViewListUsuario"
+            android:label="@string/title_activity_view_list_usuario" >
+        </activity>
+    </application>
+
+</manifest>
